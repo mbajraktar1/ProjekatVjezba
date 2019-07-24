@@ -1,0 +1,13 @@
+.klasa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+}
+
+.fff {
+  background: palegoldenrod;
+  padding: 20px;
+}
