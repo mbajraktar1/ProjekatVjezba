@@ -5,8 +5,8 @@ class Forma extends React.Component {
     return (
       <div className="fff">
         <form>
-            Username: <input type="text"></input> <br/> <br/>
-            Password : <input type="text"></input> <br/> <br/>
+            <p className="tekst"> Username: </p> <input type="text"></input> <br/>
+            <p className="tekst"> Password : </p> <input type="password"></input> <br/> <br/>
             <button> Log In </button>
         </form> 
       </div>

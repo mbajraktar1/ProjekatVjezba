@@ -1,3 +1,8 @@
+.sve {
+  height: 100%;
+  width: 100%;
+}
+
 .klasa {
   display: flex;
   align-items: center;
@@ -5,9 +10,66 @@
   flex-direction: column;
   text-align: center;
   height: 100vh;
+  background-image: url('./images/background.jpg');
 }
 
 .fff {
-  background: palegoldenrod;
+  border: solid #6a9ac5;
+  background: #151019;
+  padding: 20px 50px;
+}
+
+.okvir {
+  background: #151019;
+  height: 100%;
+}
+
+.pomocni {
+  display: flex;
+  height: inherit;
+  width: 100%;
+}
+
+.naslov {
+  width: inherit;
   padding: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+  border: solid #6a9ac5;
+}
+
+.meni {
+  width: 300px;
+  height: 100vh;
+  text-align: center;
+  border: solid #6a9ac5;
+  background: #151019;
+}
+
+.tekst {
+  color: #6a9ac5;
+}
+
+.sadrzaj {
+  background: url(./images/background.jpg);
+  background-repeat: repeat;
+  height: 100vh;
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.kvadrat {
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background: #6a9ac5;
+  border: solid #151019;
+  margin: 10px;
+}
+
+.tekst2 {
+  color: #151019;
 }
